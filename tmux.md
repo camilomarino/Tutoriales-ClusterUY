@@ -6,7 +6,7 @@ TMUX es un multiplexor de terminal, por más detalle ir a su página web.
 Los siguientes comandos instalan la versión 3.1 de TMUX sin necesidad de permisos de superusuario. El binario de TMUX se ubicará en ~/local/bin/tmux.
 ```bash
 wget https://iie.fing.edu.uy/~cmarino/cluster/install_tmux.sh
-./install_tmux.sh
+bash install_tmux.sh
 rm install_tmux.sh
 ```
 Las lineas anteriores corren el script install_tmux.sh, el cual contiene:
