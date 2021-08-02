@@ -1,5 +1,6 @@
 # Visual Studio Code en un nodo de [ClusterUY](https://www.cluster.uy/)
 ##### Escrito el 23/05/2021 
+##### Revisado el 02/08/2021
 
 ---
 El siguiente tutorial explica como poder utilizar [VS Code](https://code.visualstudio.com/) de forma remota en ClusterUY, centrado en la utilización de Python y Jupyter Notebook.
@@ -48,8 +49,8 @@ Lo anterior se encarga de redirigir los puertos desde tu máquina al nodo del cl
 
 ### 3. Instalar extensiones python.
 Se debe instalar las extensiones de igual forma que se realizan en VS Code. Las extensiones necesarias para usar Python y Jupyter son:
-- Python: versión *2021.2.633441544*
-- Jupyter: versión *2021.2.0*
+- Python: versión *2021.5.926500501*
+- Jupyter: versión *2021.6.832593372*
 
 Otra combinación de versiones es probable que no funcione correctamente.
 
