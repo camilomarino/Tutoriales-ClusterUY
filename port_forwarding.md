@@ -16,10 +16,9 @@ function fsshmap() {
 }
 
 functtion forwardcluster() {
-  # {6000..6006}: tensorboard
-  # 8080: code-server
-  # {8888..8895}: jupyter lab/notebook
-  fsshmap $1 {6000..6006} 8080 {8888..8895}
+  echo "   code-server "`ssh cluster cat /clusteruy/home/cmarino/.config/code-server/config.yaml | grep "password: "`
+  echo
+  fsshmap $1 {6000..6006} {8080..8082} {8888..8895}
 }
 ```
 
